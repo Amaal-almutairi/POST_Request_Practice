@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/edid"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:hint="Enter Your ID" />
+
+    <EditText
+        android:id="@+id/ednammain3"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:layout_margin="15dp"
+        android:hint="Enter Your Name" />
+
+    <EditText
+        android:id="@+id/edlocmain3"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:hint="Enter Your Location" />
+
+    <Button
+        android:id="@+id/btnUpdmain3"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/btnDelmain3"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="DELETE" />
+
+    <Button
+        android:id="@+id/btnviewmain3"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="view" />
+
+
+</LinearLayout>
